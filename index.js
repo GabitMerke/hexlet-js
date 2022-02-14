@@ -1,10 +1,13 @@
-//import _ from "./lodash";
-import _ from "lodash";
-console.log(_.last(["one", "two"]));
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-console */
+// import _ from "./lodash";
+import _ from 'lodash';
 
-console.log("Hello, Hexlet!");
+// eslint-disable-next-line no-console
+console.log(_.last(['one', 'two']));
+console.log('Hello, Hexlet!');
 
-const find_sum = (a, b) => {
+const findSum = (a, b) => {
   const c = a + b;
   return c;
 };
